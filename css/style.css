@@ -38,13 +38,13 @@ div {
     border: 3px solid #FFFFFF;
 }
 
-div.introduction{
+.introduction{
     line-height: 2 ;
     border-radius: 25px;
     margin-top: 15px;
 }
 
-div.red{
+.red{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -52,7 +52,7 @@ div.red{
     border-left: 5px solid #FFFFFF;
 }
 
-div.blue{
+.blue{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
@@ -60,11 +60,15 @@ div.blue{
     border-right: 5px solid #FFFFFF;
 }
 /* do seperately if it doesn't work*/
-div.blue h2, p{
+.blue h2{
     color: #C4C4C4
 }
 
-div.yellow{
+.blue p{
+    color: #C4C4C4
+}
+
+.yellow{
     background-color: #FFFF00 ;
     text-align: right;
     margin-left: 50px;
@@ -72,11 +76,11 @@ div.yellow{
     border-left: 5px solid #FFFFFF;
 }
 
-div.yellow p{
+.yellow p{
     color: #707070
 }
 
-div.green{
+.green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
