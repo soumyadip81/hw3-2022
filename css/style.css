@@ -1,67 +1,98 @@
-/*Add padding and margin to space out the page.
-Make the font larger too.*/
-body{
-	margin:1%;
-	padding:1%;
-	font-size:150%;
+body { 
+    /* maybe use font-family instead */
+    font-family: "Arial", "Verdana";
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-/*Make the h1 heading bigger with a bold font*/
-h1{
-	font-size: 2em; 
-	font-weight: bold;
+h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 15px
 }
 
-.active{
-	background: white;
-    text-transform: uppercase;
-	text-align: center;
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
 }
 
-.active a{
-	text-decoration: none;;
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-/*Style the images*/
-img{
-    height: 175px;
-	width:auto;
-    border: 3px solid blue;
-    padding: 25px;
-    border-radius: 20px;
-    margin: 10px;
+img {
+    display: block;
+    width: 250px;
+    margin:auto;
+    border: #FFFFFF 10px dashed
 }
 
-/*Make the h2 heading match h1*/
-h2{
-	font-size: 2em; 
-	font-weight: bold;
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
 }
 
-/*Improve the spacing for paragraphs AND headings*/
-p, h1, h2 {
-    padding: 10px;
+div.introduction{
+    line-height: 2 ;
+    border-radius: 25px;
+    margin-top: 15px;
 }
 
-/*Add borders around the main components and some
-space too*/
-header, nav, main, footer{
-	border: 3px solid red;
-	margin: 20px 0;
+.red{
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
 
-
-/*Change the styling for all of the list 
-items in the nav section*/
-nav li{
-	background-color: #ECFF4D;
-	padding:10px;
-	width:25%;
-	border:1px solid black;
-	display: inline-block;
-	width: 20%;
+.blue{
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+}
+/* do seperately if it doesn't work*/
+.blue h2, p{
+    color: #C4C4C4
 }
 
-/*Added this so the links stay the same color*/
-a:visited{color:#0000FF}
+.yellow{
+    background-color: #FFFF00 ;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+}
 
+.yellow p{
+    color: #707070
+}
+
+.green{
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+}
+
+footer{
+    background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px solid #FFFFFF;
+}
+
+footer p{
+    text-align: right;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
